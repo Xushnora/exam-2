@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>litho</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./css/col.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <section class="site">
+        <div class="container">
+            <div class="site__content">
+                <header class="site__header  row middle between">
+                    <div class="site__logobox">
+                        <a href="#" class="site__logo-link">
+                            <img src="./images/logo.png" alt="Logo" width="111" height="36">
+                        </a>
+                    </div>
+                    <div class="site__call row middle">
+                        <a class="site__tel-link" href="tel:998998701201">call us +44 123 456 78 90</a>
+                        <button class="site__menu" id="modal-menu"><i class='bx bx-menu'></i></button>
+                    </div>
+                </header>
+            </div>
+        </div>
+        <div class="site__hero hero">
+            <div class="container">
+                <div class="hero__content">
+                    <div class="hero__desc">
+                        <div class="hero__animbox row middle">
+                            <div class="hero__spanbox">
+                                <p class="hero__text">01</p>
+                            </div>
+                            <div class="hero__titlebox">
+                                <h1 class="hero__title">De wendell <br> burnette</h1>
+                                <a class="hero__link" href="#">explore project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="modal" id="menuModal">
+        <div class="modal__content row">
+            <div class="modal__img"></div>
+            <div class="modal__desc">
+                <div class="modal__btnbox">
+                    <button class="modal__btn" id="modalClose"><i class='bx bx-x'></i></button>
+                </div>
+                <ul class="modal__list">
+                    <li class="modal__item">
+                        <a href="#" class="modal__link">home</a>
+                    </li>
+                    <li class="modal__item">
+                        <a href="#" class="modal__link">about</a>
+                    </li>
+                    <li class="modal__item">
+                        <a href="#" class="modal__link">services</a>
+                    </li>
+                    <li class="modal__item">
+                        <a href="#" class="modal__link">portfolio</a>
+                    </li>
+                </ul>
+                <ul class="modal__media-list">
+                    <li class="modal__media-item row middle">
+                        <i class='bx bxl-facebook mediabx'></i>
+                        <a class="modal__media-link" href="#">facebook</a>
+                    </li>
+                    <li class="modal__media-item row middle">
+                        <i class='bx bxl-twitter mediabx'></i>
+                        <a class="modal__media-link" href="#"> twitter</a>
+                    </li> 
+                    <li class="modal__media-item row middle">
+                        <i class='bx bxl-instagram mediabx'></i>
+                        <a class="modal__media-link" href="#"> instagram </a>
+                    </li> 
+                    <li class="modal__media-item row middle">
+                        <i class='bx bxl-dribbble mediabx'></i>
+                        <a class="modal__media-link" href="#"> dribbble </a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+    <main>
+        <section class="since">
+            <div class="container">
+                <div class="since__content row middle between">
+                    <div class="since__years years">
+                        <div class="years__br-left"></div>
+                        <div class="years__br-right"></div>
+                        <div class="years__box row middle">
+                            <span class="years__number">28</span>
+                            <h3 class="years__working">Years experience working</h3>
+                        </div>
+                    </div>
+                    <div class="since__desc desc">
+                        <p class="desc__text">SINCE 1992</p>
+                        <h3 class="desc__title">An architectural company based in United kingdom</h3>
+                    </div>
+                    <div class="since__textbox textbox"> 
+                        <p class="textbox__desc">Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been standard dummy text ever since ipsum been the industry lorem ipsum has been lorem ipsums dolor.</p>
+                        <a class="textbox__link" href="#">about company</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="design">
+            <div class="container">
+                <ul class="design__list row middle between">
+                    <li class="design__item">
+                        <div class="design__img"></div>
+                        <div class="design__box">
+                            <h3 class="design__title">Architecture <br>
+                                design</h3>
+                            <button class="design__btn">
+                                <i class='bx bx-right-arrow-alt'></i>
+                            </button>
+                        </div>
+                        <div class="design__hoverbox hoverbox">
+                            <p class="hoverbox__text">Lorem ipsum is simply dummy text of the printing and typesetting.</p>
+                            <a href="#" class="hoverbox__link">SEE PORTFOLIO
+                                <i class='bx bx-right-arrow-alt hoverbox-bx'></i>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="design__item">
+                        <div class="design__img"></div>
+                        <div class="design__box">
+                            <h3 class="design__title">Architecture <br>
+                                design</h3>
+                            <button class="design__btn">
+                                <i class='bx bx-right-arrow-alt'></i>
+                            </button>
+                        </div>
+                        <div class="design__hoverbox hoverbox">
+                            <p class="hoverbox__text">Lorem ipsum is simply dummy text of the printing and typesetting.</p>
+                            <a href="#" class="hoverbox__link">SEE PORTFOLIO
+                                <i class='bx bx-right-arrow-alt hoverbox-bx'></i>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="design__item">
+                        <div class="design__img"></div>
+                        <div class="design__box">
+                            <h3 class="design__title">Architecture <br>
+                                design</h3>
+                            <button class="design__btn">
+                                <i class='bx bx-right-arrow-alt'></i>
+                            </button>
+                        </div>
+                        <div class="design__hoverbox hoverbox">
+                            <p class="hoverbox__text">Lorem ipsum is simply dummy text of the printing and typesetting.</p>
+                            <a href="#" class="hoverbox__link">SEE PORTFOLIO
+                                <i class='bx bx-right-arrow-alt hoverbox-bx'></i>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="design__item">
+                        <div class="design__img"></div>
+                        <div class="design__box">
+                            <h3 class="design__title">Architecture <br>
+                                design</h3>
+                            <button class="design__btn">
+                                <i class='bx bx-right-arrow-alt'></i>
+                            </button>
+                        </div>
+                        <div class="design__hoverbox hoverbox">
+                            <p class="hoverbox__text">Lorem ipsum is simply dummy text of the printing and typesetting.</p>
+                            <a href="#" class="hoverbox__link">SEE PORTFOLIO
+                                <i class='bx bx-right-arrow-alt hoverbox-bx'></i>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="owner"> 
+            <div class="container row middle between">
+                <div class="owner__titlebox">
+                    <h2 class="owner__title">
+                        We are passionate knowing that people work, play and inhabit the spaces and places. 
+                    </h2>
+                </div>
+                <div class="owner__managed managed">
+                    <h3 class="managed__title">OWNER MANAGED</h3>
+                    <p class="managed__text">Lorem ipsum is simply dummy text of the printing and lorem ipsum has been.</p>
+                </div>
+                <div class="owner__managed managed">
+                    <h3 class="managed__title">EXPECT CREATIVITY</h3>
+                    <p class="managed__text">Lorem ipsum is simply dummy text of the printing and lorem ipsum has been.</p>
+                </div>
+            </div>
+        </section>
+        <section class="vedio">
+            <div class="container">
+                <div class="vedio__content">
+                    <div class="vedio__imgbox"></div>
+                    <div class="vedio__desc">
+                        <a class="vedio__link" href="https://youtu.be/qtFiwEkQNjM"><i class='bx bx-play'></i></a>
+                    </div>
+                    <div class="vedio__box leader"> 
+                        <h3 class="leader__title">We are the leader in the <span class="leader__span">architectural</span></h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <aside class="partner">
+            <div class="container">
+                <ul class="partner__list row middle between">
+                    <li class="partner__item">
+                         <img class="partner__img" src="./images/partner-img1.png" alt="Partners" width="232" height="110">
+                    </li>
+                    <li class="partner__item">
+                        <img class="partner__img" src="./images/partner-img2.png" alt="Partners" width="232" height="110">
+                    </li>
+                    <li class="partner__item">
+                        <img class="partner__img" src="./images/partner-img3.png" alt="Partners" width="232" height="110">
+                    </li>
+                    <li class="partner__item">
+                        <img class="partner__img" src="./images/parner-img4.png" alt="Partners" width="232" height="110">
+                    </li>
+                </ul>
+            </div>
+        </aside>
+        <section class="selected">
+            <div class="container">
+                <div class="selected__content">
+                    <div class="selected__element">
+                        <span class="selected__span">
+                            SELECTED WORK
+                        </span>
+                    </div>
+                    <ul class="selected__list row middle between">
+                        <li class="selected__item">
+                            <div class="selected__imgbox"></div>
+                            <div class="selected__color color-box">
+                                <button class="color-box__btn" ><i class='bx bx-arrow-back bx-rotate-180' ></i></button>
+                            </div>
+                            <div class="selected__desc">
+                                <h4 class="selected__title">cultural centre</h4>
+                                <p class="selected__text">Architecture</p>
+                            </div>
+                        </li>
+                        <li class="selected__item">
+                            <div class="selected__imgbox"></div>
+                            <div class="selected__color color-box">
+                                <button class="color-box__btn" ><i class='bx bx-arrow-back bx-rotate-180' ></i></button>
+                            </div>
+                            <div class="selected__desc">
+                                <h4 class="selected__title">cultural centre</h4>
+                                <p class="selected__text">Architecture</p>
+                            </div>
+                        </li>
+                        <li class="selected__item">
+                            <div class="selected__imgbox"></div>
+                            <div class="selected__color color-box">
+                                <button class="color-box__btn" ><i class='bx bx-arrow-back bx-rotate-180' ></i></button>
+                            </div>
+                            <div class="selected__desc">
+                                <h4 class="selected__title">cultural centre</h4>
+                                <p class="selected__text">Architecture</p>
+                            </div>
+                        </li>
+                        <li class="selected__item">
+                            <div class="selected__imgbox"></div>
+                            <div class="selected__color color-box">
+                                <button class="color-box__btn" ><i class='bx bx-arrow-back bx-rotate-180' ></i></button>
+                            </div>
+                            <div class="selected__desc">
+                                <h4 class="selected__title">cultural centre</h4>
+                                <p class="selected__text">Architecture</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="map">
+            <div class="container">
+                <div class="map__content">
+                    <div class="map__box">
+                        <div class="map__spanbox">
+                            <span class="map__span">world</span>
+                        </div>
+                        <div class="map__img">
+                            <img src="./images/map-img.png" alt="Map" width="457" height="258">
+                        </div>
+                        <div class="map__desc">
+                            <h3 class="map__title">We have offices all around the world</h3>
+                            <p class="map__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla atque ut beatae veniam, amet officia lorem, ipsum.</p>
+                            <a href="#" class="map__link">get in touch</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="blogs">
+            <div class="container">
+                <div class="selected__element">
+                    <span class="selected__span">
+                        LATEST BLOGS
+                    </span>
+                </div>
+                <ul class="blogs__list row middle between">
+                    <li class="blogs__item">
+                        <div class="blogs__img"></div>
+                        <div class="blogs__desc">
+                            <a class="blogs__btn" href="#">creative</a>
+                            <span class="blogs__span">13 FEBRUARY 2021</span>
+                            <p class="blogs__text">Bad design is smoke, while good design is a mirror</p>
+                        </div>
+                    </li>
+                    <li class="blogs__item">
+                        <div class="blogs__img"></div>
+                        <div class="blogs__desc">
+                            <a class="blogs__btn" href="#">creative</a>
+                            <span class="blogs__span">13 FEBRUARY 2021</span>
+                            <p class="blogs__text">Bad design is smoke, while good design is a mirror</p>
+                        </div>
+                    </li>
+                    <li class="blogs__item">
+                        <div class="blogs__img"></div>
+                        <div class="blogs__desc">
+                            <a class="blogs__btn" href="#">creative</a>
+                            <span class="blogs__span">13 FEBRUARY 2021</span>
+                            <p class="blogs__text">Bad design is smoke, while good design is a mirror</p>
+                        </div>
+                    </li>
+                    <li class="blogs__item">
+                        <div class="blogs__img"></div>
+                        <div class="blogs__desc">
+                            <a class="blogs__btn" href="#">creative</a>
+                            <span class="blogs__span">13 FEBRUARY 2021</span>
+                            <p class="blogs__text">Bad design is smoke, while good design is a mirror</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="question container">
+            <div class="container">
+                <div class="questions__box">
+                    <h2 class="question__title">ARE YOU READY TO WORK WITH US? <a href="#" class="question__link">START A PROJECT</a></h2>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container row middle between">
+            <div class="footer__logo-box">
+                <a href="#">
+                    <img src="./images/logo.png" alt="Logo" width="111" height="36px">
+                </a>
+            </div>
+            <div class="footer__text-box">
+                <p class="footer__text">
+                    +1 234 567 8910 • 27 EDEN WALK EDEN CENTRE, PARIS,
+                </p>
+                <p class="footer__link-text">FRANCE • <a class="footer__link" href="mailto:info@yourdomain.com">INFO@YOURDOMAIN.COM</a> </p>
+            </div>
+            <ul class="footer-media__list social row middle between">
+                <li class="social__item">
+                    <a href="#" class="social__link">
+                        <i class='bx bxl-facebook footer-bx'></i>
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a href="#" class="social__link">
+                        <i class='bx bxl-dribbble footer-bx'></i>
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a href="#" class="social__link">
+                        <i class='bx bxl-twitter footer-bx' ></i>
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a href="#" class="social__link">
+                        <i class='bx bxl-instagram footer-bx' ></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <div class="arrow">
+        <div class="arrow__btn">
+            <i class='bx bx-up-arrow-alt'></i>
+        </div>
+    </div>
+
+
+  <script src="js/main.js"></script>
+</body>
+</html>
