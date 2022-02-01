@@ -792,6 +792,39 @@ ul {
 
 /* BLOGS */
 
+.blogs__element{
+    padding-bottom: 100px;
+}
+
+.blogs__spans{
+    color: #cee002;
+    position: relative;
+    left: 45%;
+    top: 0;
+}
+
+.blogs__spans::before{
+    content: '';
+    display: block;
+    width: 520px;
+    height: 1px;
+    background-color: #393c42;
+    position: absolute;
+    left: -540px;
+    top: 45%;
+}
+
+.blogs__spans::after{
+    content: '';
+    display: block;
+    width: 520px;
+    height: 1px;
+    background-color: #393c42;
+    position: absolute;
+    right: -540px;
+    top: 45%;
+}
+
 .blogs__list {
     padding-bottom: 100px;
 
@@ -876,7 +909,7 @@ ul {
     position: relative;
 }
 
-.questions__box {
+.question__box {
     position: absolute;
     left: 25%;
     top: 0;
