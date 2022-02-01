@@ -68,6 +68,7 @@ ul {
     right: -820px;
     opacity: 0;
     transition: all 0.4s ease;
+    z-index: 500;
 }
 
 .modal__content {
